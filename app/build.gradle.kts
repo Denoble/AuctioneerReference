@@ -37,8 +37,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_17.toString()
@@ -95,7 +95,7 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.4.0")
     //preference datastore
     implementation("androidx.datastore:datastore-core:1.1.0-alpha04")
-    implementation("androidx.datastore:datastore-preferences:1.1.0-alpha04")
+    //implementation("androidx.datastore:datastore-preferences:1.1.0-alpha04")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
