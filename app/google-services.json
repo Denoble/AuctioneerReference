@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014513226799",
+    "project_id": "auctioneerref",
+    "storage_bucket": "auctioneerref.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014513226799:android:8a35b3401c03f66ddbe2da",
+        "android_client_info": {
+          "package_name": "com.gevcorst.auctioneerreference"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQpqSnZpETgAHufOey59j9U_T_ogP8rio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

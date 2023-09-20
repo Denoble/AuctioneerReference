@@ -2,6 +2,7 @@ package com.gevcorst.auctioneerreference
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountBox
+import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.ui.graphics.vector.ImageVector
 
 
@@ -10,7 +11,7 @@ interface NavDestinations {
     val route: String
 }
 object Login :NavDestinations{
-    override val icon: ImageVector = Icons.Filled.AccountBox
+    override val icon: ImageVector = Icons.Filled.AccountCircle
     override val route:String =  "Login"
 }
 object SignUp:NavDestinations{
