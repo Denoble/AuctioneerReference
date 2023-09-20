@@ -68,7 +68,7 @@ fun SignUpScreen(
             val (signUpLabel, companyName, email, password, coPassword, signupBotton,
                 alreadyHaveAnAccount) = createRefs()
             CustomTitleText(
-                text = stringResource(id = R.string.sign_up),
+                text = stringResource(id = R.string.client_bio),
                 modifier = Modifier.constrainAs(signUpLabel) {
                     top.linkTo(parent.top, margin = 24.dp)
                     start.linkTo(parent.start, margin = 16.dp)
@@ -84,9 +84,9 @@ fun SignUpScreen(
                 )
             )
             CustomOutlinedTextField(
-                label = stringResource(id = R.string.company_name),
+                label = stringResource(id = R.string.your_bio),
                 value =uiState.value.name,
-                placeHolderText = stringResource(id = R.string.company_name),
+                placeHolderText = stringResource(id = R.string.your_bio),
                 modifier = Modifier.constrainAs(companyName) {
                     top.linkTo(signUpLabel.bottom, margin = 16.dp)
                     start.linkTo(signUpLabel.start)

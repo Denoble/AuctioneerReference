@@ -4,13 +4,14 @@
   <string name="sign_up">New User Sign Up</string>
   <string name="login">Login to Account</string>
   <string name="reset_password">Reset Password?</string>
-  <string name="company_name">\u0020 Company\'s Name</string>
-  <string name="company_email">\u0020 Company\'s email</string>
+  <string name="your_bio">\u0020 Client\'s Bio</string>
+  <string name="cllient_email">\u0020 Client\'s email</string>
   <string name="coPassword">"Co-Password"</string>
   <string name="SignUp">"Sign Up"</string>
   <string name="alreadyHaveAccount">"Already have an account? Login here "</string>
   <string name="dont_haveAnAccount">"\u0020 Don\'t have an account? Sign up here"</string>
   <string name="login_screen_title">Login</string>
+  <string name="client_bio">Client Bio</string>
   <string name="password">Password</string>
   <string name="repeat_password">Repeat password</string>
   <string name="generic_error">Something wrong happened. Please try again.</string>
