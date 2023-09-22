@@ -25,10 +25,8 @@ import kotlinx.coroutines.CoroutineScope
 
 @Composable
 fun Main() {
-
-
     AuctioneerReferenceTheme {
-        Surface(color = MaterialTheme.colorScheme.background) {
+        Surface(color = MaterialTheme.colorScheme.secondary) {
             val snackbarHostState = remember { SnackbarHostState() }
             val appState = rememberAppState(snackbarHostState = snackbarHostState)
             Scaffold(
@@ -39,8 +37,7 @@ fun Main() {
                         snackbar = { snackbarData ->
                             Snackbar(
                                 snackbarData, contentColor =
-                                MaterialTheme.colorScheme.onPrimary
-                            )
+                                MaterialTheme.colorScheme.surface)
                         }
                     )
                 }) { paddingValue ->

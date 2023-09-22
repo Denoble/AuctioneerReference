@@ -4,7 +4,7 @@
   <string name="sign_up">New User Sign Up</string>
   <string name="login">Login to Account</string>
   <string name="reset_password">Reset Password?</string>
-  <string name="your_bio">\u0020 Client\'s Bio</string>
+  <string name="your_bio">\u0020 Enter Your Bio</string>
   <string name="cllient_email">\u0020 Client\'s email</string>
   <string name="coPassword">"Co-Password"</string>
   <string name="SignUp">"Sign Up"</string>
@@ -24,4 +24,5 @@
   <string name="password_error">Your password should have at least six digits and include one digit, one lower case letter and one upper case letter.</string>
   <string name="password_match_error">Passwords do not match.</string>
   <string name="email_error">Please insert a valid email.</string>
+  <string name="upload_logo">Upload logo</string>
 </resources>

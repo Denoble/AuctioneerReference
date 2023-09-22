@@ -66,7 +66,7 @@ fun EmailField(value: String, onNewValue: (String) -> Unit, modifier: Modifier =
         modifier = modifier,
         value = value,
         onValueChange = { onNewValue(it) },
-        placeholder = { Text(stringResource(com.gevcorst.auctioneerreference .R.string.company_email)) },
+        placeholder = { Text(stringResource(com.gevcorst.auctioneerreference .R.string.client_bio)) },
         leadingIcon = { Icon(imageVector = Icons.Default.Email, contentDescription = "Email") }
     )
 }
